@@ -1,0 +1,76 @@
+u {
+  text-decoration-color: black;
+}
+#searchbox {
+  border: 2px solid #000000;
+}
+#searchflexbox {
+  border: 2px black;
+}
+.fas {
+  color: black;
+}
+#fundraisebtn {
+  border: 2px solid #329b9b;
+  background: #ffffff;
+}
+
+#donatebtn {
+  background: linear-gradient(
+    90deg,
+    rgba(235, 113, 0, 0.64) 0%,
+    #fa7800 49.9%,
+    #eb4700 100%
+  );
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #f9f9f9;
+}
+
+#formbox {
+  background-color: #f4e9dd;
+}
+#formbox div {
+  width: 100%;
+}
+#formtext {
+  color: #eb7100;
+}
+#formtext span {
+  border: 2px black;
+}
+#formdonatebtn {
+  background: linear-gradient(
+    90deg,
+    #eb7100 0%,
+    #eb7100 0.01%,
+    #fa7800 50%,
+    #ff3354 100%
+  );
+}
